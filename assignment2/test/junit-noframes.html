@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+      
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['.SampleTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/Users/jingwu/Software/apache-ant-1.9.4/lib/ant.jar';
+    
+        cur['ant.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/build.xml';
+    
+        cur['ant.file.mapreduce-assignments'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.mapreduce-assignments'] = 'file';
+    
+        cur['ant.home'] = '/Users/jingwu/Software/apache-ant-1.9.4';
+    
+        cur['ant.home.ivy.instance'] = '/Users/jingwu/Software/apache-ant-1.9.4';
+    
+        cur['ant.java.version'] = '1.7';
+    
+        cur['ant.library.dir'] = '/Users/jingwu/Software/apache-ant-1.9.4/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/Users/jingwu/Software/apache-ant-1.9.4/lib';
+    
+        cur['ant.project.default-target'] = 'scripts';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'mapreduce-assignments';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.4 compiled on April 29 2014';
+    
+        cur['artifactId'] = 'mapreduce-assignment';
+    
+        cur['awt.toolkit'] = 'sun.lwawt.macosx.LWCToolkit';
+    
+        cur['awt.toolkit.ivy.instance'] = 'sun.lwawt.macosx.LWCToolkit';
+    
+        cur['basedir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['basedir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['build.dir'] = 'build';
+    
+        cur['dist.dir'] = 'dist';
+    
+        cur['DSTAMP'] = '20140521';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.encoding.pkg.ivy.instance'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['ftp.nonProxyHosts.ivy.instance'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['gopherProxySet.ivy.instance'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['http.nonProxyHosts.ivy.instance'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['ivy.basedir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['ivy.basedir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['ivy.build.artifacts.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/Users/jingwu/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/Users/jingwu/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy';
+    
+        cur['ivy.conf.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy';
+    
+        cur['ivy.conf.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.conf.file.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.conf.url'] = 'file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/Users/jingwu/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/Users/jingwu/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib';
+    
+        cur['ivy.home'] = '/Users/jingwu/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/Users/jingwu/.ivy2';
+    
+        cur['ivy.install.version'] = '2.2.0';
+    
+        cur['ivy.jar.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy';
+    
+        cur['ivy.jar.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.jar';
+    
+        cur['ivy.lib.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'mapreduce-assignment';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'edu.umd';
+    
+        cur['ivy.project.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = '0.0.1';
+    
+        cur['ivy.settings.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy';
+    
+        cur['ivy.settings.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy';
+    
+        cur['ivy.settings.file'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'file:/Users/jingwu/workspace/MapReduce-assignments/assignment2/ivy/ivysettings.xml';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = '2.2.0';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.graphicsenv.ivy.instance'] = 'sun.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.lwawt.macosx.CPrinterJob';
+    
+        cur['java.awt.printerjob.ivy.instance'] = 'sun.lwawt.macosx.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/activation-1.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/ant-1.6.5.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/aopalliance-1.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/asm-3.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/avro-1.3.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/avro-1.7.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/bliki-core-3.0.16.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/cglib-2.2.1-v20090111.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/cloud9-1.4.13.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/collections-generic-4.01.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/colt-1.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-beanutils-1.7.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-beanutils-core-1.8.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-cli-1.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-codec-1.4.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-collections-3.2.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-compress-1.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-configuration-1.6.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-daemon-1.0.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-digester-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-el-1.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-httpclient-3.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-io-2.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-lang-2.6.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-logging-1.1.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-math-2.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/commons-net-3.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/concurrent-1.3.4.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/core-3.1.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/gson-2.2.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/guava-13.0.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/guice-3.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/guice-servlet-3.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-annotations-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-auth-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-common-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-hdfs-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-mapreduce-client-core-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-streaming-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-api-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-common-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-server-common-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-server-nodemanager-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-server-resourcemanager-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hadoop-yarn-server-web-proxy-2.0.0-cdh4.2.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hamcrest-core-1.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/hsqldb-1.8.0.10.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/htmlparser-1.6.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jackson-core-asl-1.8.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jackson-jaxrs-1.8.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jackson-mapper-asl-1.8.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jackson-xc-1.8.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jasper-compiler-5.5.12.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jasper-runtime-5.5.23.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/javax.inject-1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jaxb-api-2.2.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jaxb-impl-2.2.3-1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jersey-core-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jersey-guice-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jersey-json-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jersey-server-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jersey-test-framework-grizzly2-1.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jets3t-0.7.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jettison-1.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jetty-6.1.26.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jetty-util-6.1.26.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jsch-0.1.42.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jsp-2.1-6.1.14.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jsp-api-2.1-6.1.14.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jsp-api-2.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jung-algorithms-2.0.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jung-api-2.0.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jung-graph-impl-2.0.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/junit-4.11.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/jwnl-1.3.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/kfs-0.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/log4j-1.2.16.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/maxent-3.0.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/mockito-all-1.8.5.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/mrunit-0.8.0-incubating.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/netty-3.2.4.Final.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/oro-2.0.8.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/paranamer-2.3.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/paranamer-ant-2.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/paranamer-generator-2.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/pcj-1.2.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/pig-0.10.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/protobuf-java-2.4.0a.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/qdox-1.10.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/servlet-api-2.5-20081211.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/servlet-api-2.5-6.1.14.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/servlet-api-2.5.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/slf4j-api-1.6.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/slf4j-log4j12-1.6.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/snappy-java-1.0.4.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/stax-api-1.0.1.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/tools-1.5.0.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib/xmlenc-0.52.jar:/Users/jingwu/workspace/MapReduce-assignments/assignment2/dist/mapreduce-assignment-0.0.1.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-launcher.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-junit.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-junit4.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-launcher.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-antlr.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-bcel.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-bsf.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-log4j.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-oro.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-regexp.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-resolver.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-apache-xalan2.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-commons-logging.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-commons-net.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-jai.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-javamail.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-jdepend.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-jmf.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-jsch.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-junit.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-junit4.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-launcher.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-netrexx.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-swing.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant-testutil.jar:/Users/jingwu/Software/apache-ant-1.9.4/lib/ant.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/lib/tools.jar';
+    
+        cur['java.class.version'] = '51.0';
+    
+        cur['java.class.version.ivy.instance'] = '51.0';
+    
+        cur['java.endorsed.dirs'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed';
+    
+        cur['java.endorsed.dirs.ivy.instance'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Users/jingwu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.ext.dirs.ivy.instance'] = '/Users/jingwu/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.home'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre';
+    
+        cur['java.home.ivy.instance'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre';
+    
+        cur['java.io.tmpdir'] = '/var/folders/bq/x53s4gd57wl9cffydzhtwj5c0000gn/T/';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/var/folders/bq/x53s4gd57wl9cffydzhtwj5c0000gn/T/';
+    
+        cur['java.library.path'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/Developer/NVIDIA/CUDA-5.5/lib:/Users/jingwu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.7.0_51-b13';
+    
+        cur['java.runtime.version.ivy.instance'] = '1.7.0_51-b13';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.7';
+    
+        cur['java.specification.version.ivy.instance'] = '1.7';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.ivy.instance'] = 'http://java.oracle.com/';
+    
+        cur['java.version'] = '1.7.0_51';
+    
+        cur['java.version.ivy.instance'] = '1.7.0_51';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.7';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '1.7';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '24.51-b03';
+    
+        cur['java.vm.version.ivy.instance'] = '24.51-b03';
+    
+        cur['javadoc.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/docs/api';
+    
+        cur['lib.dir'] = 'lib';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['org.xml.sax.driver'] = 'org.apache.xerces.parsers.SAXParser';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.arch.ivy.instance'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.name.ivy.instance'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.9.2';
+    
+        cur['os.version.ivy.instance'] = '10.9.2';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['platform'] = 'unix';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['socksNonProxyHosts.ivy.instance'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.class.path'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes';
+    
+        cur['sun.boot.class.path.ivy.instance'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.cpu.isalist.ivy.instance'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeBig';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeBig';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner SampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/jingwu/workspace/MapReduce-assignments/assignment2/test/TEST-SampleTest.xml crashfile=/Users/jingwu/workspace/MapReduce-assignments/assignment2/junitvmwatcher235870833398404191.properties propsfile=/Users/jingwu/workspace/MapReduce-assignments/assignment2/junit6424189940818269503.properties';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  test';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['sun.os.patch.level.ivy.instance'] = 'unknown';
+    
+        cur['test.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2/test';
+    
+        cur['TODAY'] = 'May 21 2014';
+    
+        cur['TSTAMP'] = '1355';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['user.dir.ivy.instance'] = '/Users/jingwu/workspace/MapReduce-assignments/assignment2';
+    
+        cur['user.home'] = '/Users/jingwu';
+    
+        cur['user.home.ivy.instance'] = '/Users/jingwu';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'jingwu';
+    
+        cur['user.name.ivy.instance'] = 'jingwu';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    
+        cur['version'] = '0.0.1';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+        
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://jakarta.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>1</td><td>0</td><td>0</td><td>100.00%</td><td>0.055</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#"></a></td><td>1</td><td>0</td><td>0</td><td>0.055</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name=""></a>
+<h3>Package </h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#SampleTest">SampleTest</a></td><td>1</td><td>0</td><td>0</td><td>0.055</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="SampleTest"></a>
+<h3>TestCase SampleTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>test1</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('.SampleTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>
